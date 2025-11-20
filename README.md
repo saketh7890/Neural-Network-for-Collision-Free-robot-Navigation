@@ -1,3 +1,5 @@
+
+
 This project develops and trains a neural network model that enables a robot to navigate within a simulated maze environment without colliding with walls. The goal is to integrate perception, learning, and control into an intelligent navigation system that can generalize safe motion behavior across different layouts.
 
 Project Overview
@@ -35,3 +37,16 @@ Hardware (optional extension): Dobot Magician robotic arm for real-world validat
 Outcome
 
 The trained model demonstrates intelligent, collision-aware behavior, allowing the robot to navigate safely and efficiently through maze-like environments.
+
+
+
+🔄 Workflow Summary
+
+Prepare Data:
+Collect or verify the dataset in saved/training_data.csv (11,000 samples).
+
+Train Model:
+Run train_model.py to train and save the collision-avoidance model.
+
+Run Simulation:
+Run goal_seeking.py to test the model in a maze environment.
